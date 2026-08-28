@@ -1,0 +1,23 @@
+#EXPERIMENT 3
+#ITERATIVE REFINEMENT ON A SIMPLE TASK:
+#SUMMARIZE THE PLOT OF THE SHAKESPEAREAN PLAY REMO AND JULIET IN TWO SENTENCES THROUGH THREE ROUNDS OF PROMPT TWEAKING
+from google import genai
+from google.colab import userdata
+
+# Replace with your Gemini API Key
+API_KEY = userdata.get('PE_KEY3') # Using the correct secret name
+
+# Create client
+client = genai.Client(api_key=API_KEY)
+
+# List of prompts
+prompts = [
+    # Iteration 1
+    "Summarize the plot of Shakespeare's play Romeo and Juliet in two sentences.",
+
+    # Iteration 2
+    "Summarize the plot of Shakespeare's play Romeo and Juliet in exactly two concise and formal sentences suitable for high school literature students.",
+
+    # Iteration 3
+    "Summarize the plot of Shakespeare's play Romeo and Juliet in exactly two formal sentences. Include the setting (Verona, Italy) and emphasize the themes of love, fate, and family conflict."
+]
