@@ -47,3 +47,24 @@ for item in prompts:
     )
 
     print(response.text)
+Output:
+1. Vague Prompt
+
+Python is a high-level, interpreted programming language used for
+web development, data science, automation, artificial intelligence,
+and many other applications.
+
+2. Contradictory Prompt
+
+Python is a high-level programming language.
+
+Python is easy to learn and widely used...
+[Detailed explanation with examples]
+
+3. Refined Prompt
+
+• Python is a high-level, interpreted programming language.
+• It has simple syntax and supports object-oriented programming.
+• Python is used in web development, AI, data science, and automation.
+• It improves development speed and readability.
+• Example: Python powers many data analysis and automation applications.
